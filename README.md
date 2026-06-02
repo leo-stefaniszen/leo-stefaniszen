@@ -98,7 +98,7 @@ I enjoy building projects, learning how technology works under the hood, and exp
 
 A project focused on building accessible technology and reducing barriers in the digital world.
 
-### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTNrYmpmcDh4cDIzNDA4MTJ5bmRrNzJ0MTdkd2Vjbmk4d3p0bHFucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xKcciGSczUavO2HCPL/giphy.gif" width= 20 /> Sofi
+### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemswaDdkdWc1OHk1c2ZwOWowYjFrMmN1cWR6cjUybzl4bXJnYWJxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oOylMv2oLDxcxGzYn6/giphy.gif" width= 20 /> Sofi
 
 An AI-powered college counseling assistant designed to help students plan their academic future.
 
