@@ -115,7 +115,7 @@ An AI-powered college counseling assistant designed to help students plan their 
 
 <p align="center">
   <img
-    height="180em"
+    height="300em"
     src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=leo-stefaniszen&layout=donut&hide_border=true&theme=transparent&title_color=ffffff&text_color=b3b3b3"
   />
 </p>
