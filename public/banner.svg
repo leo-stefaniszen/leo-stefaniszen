@@ -1,0 +1,250 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Leonardo Felipe Stefaniszen Maiczuk banner">
+
+  <defs>
+    <linearGradient id="spaceGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"></stop>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"></stop>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <filter id="starGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <path id="signalPath" d="M0 365
+         C160 365, 210 300, 380 300
+         S650 365, 820 365
+         S1040 235, 1285 265
+         S1460 340, 1600 300"></path>
+  </defs>
+
+  <style>
+    .bg { fill: #000; }
+
+    .star-small {
+      fill: #fff;
+      opacity: .8;
+      animation: twinkle 5s ease-in-out infinite;
+    }
+
+    .star-med {
+      fill: #fff;
+      opacity: .9;
+      animation: twinkle 6.5s ease-in-out infinite;
+    }
+
+    .name1 {
+      fill: #fff;
+      font-family: "Monocode", "Monaspace Neon", "JetBrains Mono", monospace;
+      font-size: 76px;
+      font-weight: 700;
+      letter-spacing: 7px;
+    }
+
+    .name2 {
+      fill: #8a8a8a;
+      font-family: "Monocode", "Monaspace Neon", "JetBrains Mono", monospace;
+      font-size: 62px;
+      font-weight: 400;
+      letter-spacing: 6px;
+    }
+
+    .subtitle {
+      fill: #bdbdbd;
+      font-family: "Monocode", "Monaspace Neon", "JetBrains Mono", monospace;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 4px;
+    }
+
+    .micro {
+      fill: #6f6f6f;
+      font-family: "Monocode", "Monaspace Neon", "JetBrains Mono", monospace;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+
+    .divider {
+      stroke: #fff;
+      stroke-opacity: .65;
+      stroke-width: 1.2;
+      stroke-linecap: round;
+    }
+
+    .orbit {
+      fill: none;
+      stroke: #3a3a3a;
+      stroke-width: 1;
+      stroke-dasharray: 3 8;
+      opacity: .65;
+    }
+
+    .signal {
+      fill: none;
+      stroke: url(#spaceGlow);
+      stroke-width: 1.4;
+      stroke-linecap: round;
+      opacity: .9;
+    }
+
+    .pulse {
+      animation: move 10s linear infinite;
+      filter: url(#softGlow);
+    }
+
+    .reveal {
+      animation: reveal 2.2s ease-out forwards;
+      transform-origin: left center;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.8s ease-out forwards;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 2.6s ease-out forwards;
+      opacity: 0;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 3.2s ease-out forwards;
+      opacity: 0;
+    }
+
+    .bigStar {
+      transform-origin: 1360px 120px;
+      animation: pulseStar 4.8s ease-in-out infinite;
+    }
+
+    .shooting {
+      animation: shooting 14s linear infinite;
+      opacity: 0;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: .25; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes reveal {
+      from { stroke-dashoffset: 900; opacity: 0; }
+      to { stroke-dashoffset: 0; opacity: 1; }
+    }
+
+    @keyframes move {
+      from { offset-distance: 0%; }
+      to { offset-distance: 100%; }
+    }
+
+    @keyframes pulseStar {
+      0%, 100% { transform: scale(1); opacity: .9; }
+      50% { transform: scale(1.08); opacity: 1; }
+    }
+
+    @keyframes shooting {
+      0%   { opacity: 0; transform: translate(-80px, -40px); }
+      6%   { opacity: .9; }
+      12%  { opacity: 0; transform: translate(260px, 110px); }
+      100% { opacity: 0; transform: translate(260px, 110px); }
+    }
+  </style>
+
+  <rect width="1600" height="500" class="bg"></rect>
+
+  <!-- stars -->
+  <g>
+    <circle class="star-small" cx="110" cy="70" r="1.2"></circle>
+    <circle class="star-small" cx="240" cy="160" r="1"></circle>
+    <circle class="star-small" cx="360" cy="95" r="1.3"></circle>
+    <circle class="star-small" cx="520" cy="58" r="1"></circle>
+    <circle class="star-small" cx="700" cy="145" r="1.1"></circle>
+    <circle class="star-small" cx="910" cy="80" r="1.2"></circle>
+    <circle class="star-small" cx="1080" cy="150" r="1"></circle>
+    <circle class="star-small" cx="1500" cy="90" r="1.2"></circle>
+    <circle class="star-small" cx="1450" cy="220" r="1.1"></circle>
+    <circle class="star-small" cx="1220" cy="320" r="1"></circle>
+    <circle class="star-small" cx="860" cy="320" r="1"></circle>
+    <circle class="star-small" cx="430" cy="290" r="1.1"></circle>
+  </g>
+
+  <!-- subtle nebula dust -->
+  <g opacity=".12">
+    <circle cx="1280" cy="120" r="110" fill="#fff" filter="url(#softGlow)"></circle>
+    <circle cx="980" cy="95" r="75" fill="#fff" filter="url(#softGlow)"></circle>
+    <circle cx="300" cy="120" r="85" fill="#fff" filter="url(#softGlow)"></circle>
+  </g>
+
+  <!-- shooting spark -->
+  <circle r="2.2" fill="#fff" class="shooting" filter="url(#softGlow)">
+    <animateMotion dur="14s" repeatCount="indefinite" path="M-80 40 C220 120, 540 60, 980 160 S1380 250, 1700 120"></animateMotion>
+  </circle>
+
+  <!-- big star -->
+  <g class="bigStar" transform="translate(1360 120)">
+    <circle r="5.5" fill="#fff" filter="url(#starGlow)"></circle>
+    <circle r="22" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1"></circle>
+    <circle r="38" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="1"></circle>
+    <path d="M0 -24 L0 24 M-24 0 L24 0" stroke="#fff" stroke-width="1.4" stroke-linecap="round"></path>
+    <path d="M-16 -16 L16 16 M16 -16 L-16 16" stroke="#fff" stroke-width="1.1" stroke-linecap="round" opacity=".85"></path>
+  </g>
+
+  <!-- orbit lines -->
+  <ellipse cx="1360" cy="120" rx="165" ry="58" class="orbit" transform="rotate(-14 1360 120)"></ellipse>
+  <ellipse cx="1360" cy="120" rx="125" ry="42" class="orbit" transform="rotate(-14 1360 120)"></ellipse>
+
+  <!-- moving particle on orbit -->
+  <circle r="4" fill="#fff" filter="url(#softGlow)">
+    <animateMotion dur="11s" repeatCount="indefinite" path="M1200 140 C1260 80, 1430 70, 1510 150 C1540 185, 1490 245, 1400 260 C1320 270, 1240 220, 1200 140"></animateMotion>
+  </circle>
+
+  <!-- signal line -->
+  <path d="M0 365
+           C160 365, 210 300, 380 300
+           S650 365, 820 365
+           S1040 235, 1285 265
+           S1460 340, 1600 300" class="signal" stroke-dasharray="2400" stroke-dashoffset="2400">
+    <animate attributeName="stroke-dashoffset" from="2400" to="0" dur="3.8s" fill="freeze"></animate>
+  </path>
+
+  <!-- pulse along signal -->
+  <circle r="4.5" fill="#fff" filter="url(#softGlow)">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M0 365
+           C160 365, 210 300, 380 300
+           S650 365, 820 365
+           S1040 235, 1285 265
+           S1460 340, 1600 300"></animateMotion>
+  </circle>
+
+  <!-- main text -->
+  <g class="reveal">
+    <text x="100" y="175" class="name1 fadeIn1">LEONARDO FELIPE</text>
+
+    <line x1="100" y1="215" x2="1000" y2="215" class="divider">
+      <animate attributeName="x2" from="100" to="1000" dur="2.2s" fill="freeze"></animate>
+    </line>
+
+    <text x="100" y="300" class="name2 fadeIn2">STEFANISZEN MAICZUK</text>
+
+    <text x="100" y="355" class="subtitle fadeIn3">COMPUTER SCIENCE STUDENT</text>
+  </g>
+
+  <!-- tiny footer accent -->
+  <text x="100" y="445" class="micro">PSALM 23</text>
+</svg>
