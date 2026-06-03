@@ -126,7 +126,7 @@ An AI-powered college counseling assistant designed to help students plan their 
 
 
 
-##<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3pvNHZ3YTF4MWFhZnBwejEzN2wxMHc0a3RxMnJidWlrMXJ1ZXJ1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pziglbgVTRRW9EWbpu/giphy.gif" width=20> Contact information
+## <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3pvNHZ3YTF4MWFhZnBwejEzN2wxMHc0a3RxMnJidWlrMXJ1ZXJ1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pziglbgVTRRW9EWbpu/giphy.gif" width=20> Contact information
 
 <p align="center">
   <a href="https://www.linkedin.com/in/leonardo-felipe-stefaniszen-maiczuk-675386366/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAxs1fV%2BPRja3wftSohH44w%3D%3D">
