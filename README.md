@@ -120,10 +120,6 @@ An AI-powered college counseling assistant designed to help students plan their 
   />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/leo-stefaniszen/leo-stefaniszen/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" " />
-</p>
-
 
 
 ## <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3pvNHZ3YTF4MWFhZnBwejEzN2wxMHc0a3RxMnJidWlrMXJ1ZXJ1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pziglbgVTRRW9EWbpu/giphy.gif" width=20> Contact information
